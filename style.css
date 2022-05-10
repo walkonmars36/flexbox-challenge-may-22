@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #f5f5f5;
+  height: 31.25em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: black;
+  overflow: auto;
+}
+
+#logo {
+  color: white;
+  padding: 0.75em 3em;
+  background-color: #008000;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#nav ul {
+  display: flex;
+  list-style-type: none;
+  font-weight: 500;
+}
+
+#nav ul li {
+  padding-left: 1px;
+  letter-spacing: 1px;
+}
+
+#nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 1.2rem 3.5rem;
+}
+#nav li a:hover {
+  background-color: #008000;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.profile {
+  color: white;
+}
+
+.search-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+  align-content: center;
+}
+
+.search {
+  display: flex;
+}
+.options {
+  display: flex;
+}
+
+main {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 90vh;
+  gap: 1em;
+  padding: 1em;
+}
+
+.card {
+  width: 250px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+/* .card-img {
+} */
